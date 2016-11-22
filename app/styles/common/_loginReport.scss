@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 18, 2016, 5:32:28 PM
+    Author     : utpal.sharma
+*/
+$ff-helveticaneue-55: 'HelveticaNeue55';
+$ff-helveticaneue-75: 'HelveticaNeue75';
+$report-gray:#A9A9A9;
+$report-white:#ffffff;
+$report-muddy:#c4a485;
+
+.report-login-bg-content {
+    background: url("../images/report_LoginBG_Image01.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    height: 950px;
+    width: 100%;
+    background-size: 100% 100%;
+    
+    
+}
+.login-header {
+        font-family: $ff-helveticaneue-75;
+        font-size: 60px;
+        color: $report-gray;
+        margin-left: 90px;
+    }
+
+.report-login-main {
+  width: 460px;
+  height: 100px;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 80px;
+  background: $report-muddy;
+  padding: 10px;
+  opacity: 0.5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  
+  .login-main-header {
+        font-size: 20px;
+        color: #663300;
+        white-space: nowrap;
+  }
+}
+
+.box1 {
+  background: $report-white;
+  height: 30px;
+  text-indent: 10px;
+  width: 90%;
+  margin-bottom: 2px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 400;
+}
+.border1 {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.send {
+  width: 60px;
+  height: 60px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  right: 9px;
+  top: 20px;
+  border: 5px solid #bababa;
+  background: #7a7979;
+  font-size: 18px;
+  color: #fff;
+  font-weight: normal;
+  text-shadow: 1px 1px 2px #000;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.send:hover {
+  animation: spin 0.3s ease-in-out;
+  -webkit-animation: spin 0.3s ease-in-out;
+  -moz-animation: spin 0.3s ease-in-out;
+  -ms-animation: spin 0.3s ease-in-out;
+  -o-animation: spin 0.3s ease-in-out;
+  cursor: pointer;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin {
+  from {
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg);
+  }
+}
+.report-home-main {
+  width: 460px;
+  height: 280px;
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 80px;
+  background: $report-muddy;
+  padding: 10px;
+  opacity: 0.5;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 21, 2016, 2:35:01 PM
+    Author     : utpal.sharma
+*/
+
+.beam {
+  width:50px;
+  height:50px;
+  border-radius:10px;
+  position:absolute;
+}
+.r {
+  background-color:#bbbbbb;
+}
+.b {
+  background-color:#3498db;
+}
+.r1 {
+  transform: rotate(90deg);
+  left:50px;
+  top:0px;
+  animation: move1r 1.5s ease infinite;
+}
+.r3 {
+  top:50px;
+  animation: move2 1.5s ease infinite;
+}
+.b1 {
+  transform: rotate(90deg);
+  left:50px;
+  top:100px;
+  animation: move1b 1.5s ease infinite;
+}
+.b3 {
+  top:50px;
+  left:100px;
+  animation: move2 1.5s ease infinite;
+}
+
+@-webkit-keyframes rotateit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes rotateit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+@keyframes move1r {
+  0% {
+    top:0px;
+    transform: rotate(0deg);
+  }
+  45% {
+    top:100px;
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    top:100px;
+    transform: rotate(-90deg);
+  }
+}
+@keyframes move2 {
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+@keyframes move1b {
+  0% {
+    top:100px;
+    transform: rotate(0deg);
+  }
+  45% {
+    top:0px;
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    top:0px;
+    transform: rotate(-90deg);
+  }
+}
